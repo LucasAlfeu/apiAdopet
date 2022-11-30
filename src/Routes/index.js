@@ -3,7 +3,7 @@ import rotaDoPerfil from './perfilRoutes.js'
 
 const routes = (app) => {
     app.route("/").get((req, res) => {
-        res.status(200).send(perfil)
+        res.status(200).send({titulo: "Olá, seja bem vindo ao maior site de adoção"})
     })
 
     app.use(
