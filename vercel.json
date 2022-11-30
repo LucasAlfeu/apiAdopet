@@ -8,8 +8,16 @@
     ],
     "routes": [
         {
+            "src": "/(.*)",
+            "dest": "/"
+        },
+        {
             "src": "/perfil",
             "dest": "/perfil"
+        },
+        {
+            "src": "/perfil/:id",
+            "dest": "/perfil/:id"
         }
     ]
 }
