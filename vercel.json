@@ -12,11 +12,11 @@
             "dest": "/"
         },
         {
-            "src": "/perfil",
+            "src": "/(.*)",
             "dest": "/perfil"
         },
         {
-            "src": "/perfil/:id",
+            "src": "/(.*)",
             "dest": "/perfil/:id"
         }
     ]
